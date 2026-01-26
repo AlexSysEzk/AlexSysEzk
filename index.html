@@ -280,7 +280,7 @@
                                 <input type="text" class="form-control"
                                     id="apellido"
                                     placeholder="Escribe tu apellido"
-                                    name="apellido">
+                                    name="apellido" required>
                             </div>
                         </div>
                         <div class="row align-items-center mb-3">
@@ -291,13 +291,13 @@
                                 <input type="email" class="form-control"
                                     id="email"
                                     placeholder="Escribe tu correo electronico"
-                                    name="email">
+                                    name="email" required>
                             </div>
                             <div class="col-md-2">
                                 <label for="sel1"
                                     class="form-label">Pais:</label>
                                 <select class="form-select" id="sel1"
-                                    name="sellist1">
+                                    name="sellist1" required>
                                     <option>Selecciona</option>
                                     <option>España</option>
                                     <option>Francia</option>
@@ -312,13 +312,13 @@
                                 <textarea class="form-control" rows="5"
                                     id="comment"
                                     placeholder="Escribe tu mensaje..."
-                                    name="text"></textarea>
+                                    name="text" required></textarea>
                             </div>
                         </div>
                         <div class="form-check mb-3">
                             <label class="form-check-label">
                                 <input class="form-check-input" type="checkbox"
-                                    name="proteccion_datos"> Acepto la
+                                    name="proteccion_datos" required> Acepto la
                                 protección de
                                 datos
                             </label>
@@ -352,4 +352,5 @@
     </body>
 
 </html>
+
 
